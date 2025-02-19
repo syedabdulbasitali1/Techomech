@@ -216,6 +216,9 @@ body,main {
         width: 100%;
         height: 100%;
     }
+    .contact {
+        font-size: 1rem;
+    }
     .box .content {
         text-align: start;
         font-size: .6rem;
@@ -547,6 +550,7 @@ body,main {
         margin: 2rem 0px 0px 0px;
         padding:0px 10px;
         width: 100%;
+        font-size: 2rem;
     }
     .about .container .content  h2::after{
         content: "";
