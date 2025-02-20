@@ -65,8 +65,6 @@ gsap.from(".box .content", {
     duration: 2,
     delay: 1,
     ease: "power3.out"
-    // duration: 1,
-    // ease: "power3.out"
 })
 gsap.from("nav", {
     x: "100%",
@@ -82,7 +80,7 @@ function mobileGsap() {
         x: "-40%", // Use 'x' for horizontal translation
         scrollTrigger: {
           trigger: ".services ",
-        //   scroller: "[data-scroll-container]",
+          // scroller: "[data-scroll-container]",
           scroller: "main",
           start: "top 0%",
           end: "top -100%",
@@ -98,10 +96,10 @@ function mobileGsap() {
     mobileGsap();
   } else {
     gsap.to(".services .container", {
-        x: "-20%", // Use 'x' for horizontal translation
+        x: "-40%", // Use 'x' for horizontal translation
         scrollTrigger: {
           trigger: ".services ",
-        //   scroller: "[data-scroll-container]",
+          // scroller: "[data-scroll-container]",
           scroller: "main",
           start: "top 0%",
           end: "top -100%",
@@ -112,38 +110,3 @@ function mobileGsap() {
       });
   }
 
-//   window.addEventListener('resize', () => {
-//     ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-//     if (window.innerWidth <= 768) {
-//       mobileGsap();
-//     } else {
-//       desktopGsap();
-//     }
-//   });
-
-
-
-// gsap.fromTo(".services .container",
-//     { x: '-50%', opacity: 1},
-//     {
-//       x: '20%', opacity: 1,
-//       duration: 3,
-//       ease: 'power2.out',
-//       scrollTrigger: {
-//         trigger: '.services',
-//         // scroller: '[data-scroll-container]',
-//         scroller: 'body',
-//         start: 'top 70%',
-//         end: 'bottom 20%',
-//         scrub: true,
-//         markers: true,
-//         pin:true,
-//       }
-//     }
-//   );
-
-//   locoScroll.on('scroll', ScrollTrigger.update);
-
-// ScrollTrigger.addEventListener('refresh', () => locoScroll.update());
-
-// ScrollTrigger.refresh();

@@ -339,7 +339,6 @@ body,main {
 
 .tagline img {
     filter: invert(1);
-    /* height: 5vw; */
     height: clamp(60px, 4.5vw, 5vw);
 }
 @media (max-width: 480px){
@@ -642,7 +641,6 @@ body,main {
     height: 50%;
     border-radius: 5px;
     background-color: #111;
-    /* Purple-400 */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.7s;
     overflow: hidden;
