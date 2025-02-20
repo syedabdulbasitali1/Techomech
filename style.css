@@ -135,7 +135,6 @@ body,main {
     justify-content: center;
     align-items: center;
     transform: translateX(-100%);
-    transition: 0.5s;
     z-index: 0;
 }
 
@@ -697,7 +696,7 @@ body,main {
     gap: 3rem;
    }
    .services h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
    }
    .services .container{
     flex-wrap: nowrap;
