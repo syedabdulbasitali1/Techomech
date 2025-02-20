@@ -86,7 +86,6 @@ function mobileGsap() {
           end: "top -100%",
           scrub: 2,
           pin: true,
-          markers: true,
         },
       });
   }
@@ -105,7 +104,6 @@ function mobileGsap() {
           end: "top -100%",
           scrub: 2,
           pin: true,
-          markers: true,
         },
       });
   }
