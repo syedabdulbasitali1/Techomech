@@ -96,7 +96,7 @@ function mobileGsap() {
     mobileGsap();
   } else {
     gsap.to(".services .container", {
-        x: "-40%", // Use 'x' for horizontal translation
+        x: "-20%", // Use 'x' for horizontal translation
         scrollTrigger: {
           trigger: ".services ",
           // scroller: "[data-scroll-container]",
