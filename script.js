@@ -54,9 +54,9 @@ gsap.from(".social .navigations i", {
     delay: 0,
     ease: "power2"
 })
-gsap.from(".box", {
-    x: "-100%",
-    duration: 1,
+gsap.to(".box", {
+    x: "0%",
+    duration: 3,
     ease: "power3.out",
 })
 

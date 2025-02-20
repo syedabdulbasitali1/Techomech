@@ -134,6 +134,7 @@ body,main {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateX(-100%);
     transition: 0.5s;
     z-index: 0;
 }
@@ -324,7 +325,9 @@ body,main {
 }
 
 .tagline {
-    background: linear-gradient(220.55deg, #17347c 0%, #08132e 100%);
+    /* background: linear-gradient(220.55deg, #17347c 0%, #08132e 100%); */
+    /* background: linear-gradient(220.55deg, #565656 0%,  100%); */
+    background-color: #111;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -815,6 +818,7 @@ footer {
     height: fit-content;
     padding: .5rem;
     background-color: #08132e;
+    border-radius: 5px;
 }
 
 footer img {
